@@ -1,10 +1,9 @@
-
+/* NAV BAR */
 .navbar{
     width: 100%;
     background: #333333;
       
 }
-
 
 #logo {
     margin-right: 20px;
@@ -19,19 +18,21 @@
     font: bold;
 }
 
-#header{
-    font-weight: 600;
-    font-display: bold;
-    font-size: 40px;
+
+/* FONT */
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
 }
 
-.container{
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0px;
-    /* height: 1000px; */
+h4{
+    font-family: 'Open Sans', sans-serif;
 }
 
+/* CONTAINERS */
 
 #coming-soon{
     margin: 0px;
@@ -42,6 +43,7 @@
 #contact{
     /* margin: 0px; */
     height: 100%;
+    padding-left: 40px;
     
 }
 
@@ -49,9 +51,7 @@
     width: 400px;
 }
 
-.carousel{
-    margin: 0;
-}
+/* FOOTER */
 
 footer{
     background: #333333;
@@ -59,9 +59,11 @@ footer{
     font-weight: 400;
     text-align: center;
     font-size: 15px;
+    padding: 20px;
 
 }
 
+/* SOCIAL MEDIA ICONS  */
 
 #facebook,
 #instagram,

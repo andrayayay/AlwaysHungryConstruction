@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./mediaQuery.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./CSS/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./CSS/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./CSS/mediaQuery.css" />
 </head>
 
 <body>
     <div class="row">
         <div class="col-md-12">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <img src="./images/logo.jpg" width="80" height="80" alt="logo" id="logo"> 
+                <img src="./images/logo1.jpg" width="80" height="80" alt="logo" id="logo"> 
                 <a class="navbar-brand" href="./always-hungry.html"></a>   
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -45,79 +47,42 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="row no-gutters">
-    <div class="col-lg-6 padding-0">
-        <div class="container" id="coming">
+<div class="row no-gutters">
+    <div class="col-md-6 padding-0">
         <div class="jumbotron" id="coming-soon">
             <h1 class="display-4" id="header">Coming Soon to Austin Texas</h1>
-            <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
-            <hr class="my-4">
-            <h5>This website is under construction. Follow us on social media to stay up to date with our journey!</h5>
-            <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more About Our Mission</a> -->
-            <br>
-            <a href="https://www.facebook.com/bealwayshungry/" target="_blank"><i class="fab fa-facebook-square" id="facebook"></i></a>
-            <a href="https://www.instagram.com/be_always_hungry/" target="_blank"><i class="fab fa-instagram" id="instagram"></i></a>
-            <a href="https://twitter.com/Bealwayshungry?lang=en" target="_blank"><i class="fab fa-twitter-square"id="twitter"></i></a>
-        <br><br>
+                <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
+                <hr class="my-4">
+                <h4>This website is under construction. Follow us on social media to stay up to date with our journey!</h4>
+                <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more About Our Mission</a> -->
+                <br>
+                <a href="https://www.facebook.com/bealwayshungry/" target="_blank"><i class="fab fa-facebook-square" id="facebook"></i></a>
+                <a href="https://www.instagram.com/be_always_hungry/" target="_blank"><i class="fab fa-instagram" id="instagram"></i></a>
+                <a href="https://twitter.com/Bealwayshungry?lang=en" target="_blank"><i class="fab fa-twitter-square"id="twitter"></i></a>
+                <br><br>
         </div>
     </div>
-</div>
-</div>
+     
 
-        <div class="col-md-6 padding-0">
-            <div class="container">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-    
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="./images/pizza1.jpg" alt="Pizza">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="./images/soup1.jpg" alt="Soup">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="./images/logo1.jpg" alt="Logo">
-                    </div>
-                </div>
-    
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-    
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+    <div class="col-md-6 padding-0">
+        <div class="jumbotron jumbotron-fluid" id="contact">
+            <h1 class="section-header">Stay in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with Us</span></h1>
+            <br>
+            <h3>Enter your email to stay up to date with our Grand Opening.</h3>
+            <br>
+            <label for="exampleInputUsername">Your name</label>
+            <br>
+            <input type="text" class="form-control" id="" placeholder="Full Name">
+            <br>
+            <label for="exampleInputEmail">Email Address</label>
+            <br>
+            <input type="email" class="form-control" id="exampleInputEmail" placeholder="your_email@email.com">
+            <br>
+            <button type="button" class="btn btn-outline-danger submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit </button>	 
             </div>
         </div>
     </div>
-
-<div class="row">
-    <div class="col-md-6 padding-0">
-        <div class="container">
-        <div class="jumbotron jumbotron-fluid" id="contact">
-                <h3 class="section-header">Stay in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with Us</span></h3>
-                <h5>Enter your email to stay up to date with our Grand Opening.</h5>
-                    <label for="exampleInputUsername">Your name</label>
-                    <input type="text" class="form-control" id="" placeholder="Full Name">
-                    <br>
-                    <label for="exampleInputEmail">Email Address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail" placeholder="your_email@email.com">
-                    <br>
-                    <button type="button" class="btn btn-outline-danger submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit </button>	 
-        </div>
-     </div>
 </div>
-</div>
-
-
 
 
 <div class="row">
@@ -126,8 +91,10 @@
 <footer class="page-footer font-small special-color-dark pt-4">
     
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2019 Copyright: Always Hungry Always Healthy
+        <div class="footer-copyright text-center py-3">© 2019 Copyright: 
             <br>
+            Always Hungry Always Healthy
+            <br><br>
             Website Designed By Andraya Smith & Alfredo Rojas
             <br>
           <a href="http://bealwayshungry.com/"> Bealwayshungry.com</a>
