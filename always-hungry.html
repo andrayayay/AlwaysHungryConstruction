@@ -11,10 +11,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./CSS/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./CSS/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="./CSS/mediaQuery.css" />
-</head>
 
+</head>
 <body>
+
     <div class="row">
         <div class="col-md-12">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -51,9 +53,9 @@
     <div class="col-md-6 padding-0">
         <div class="jumbotron" id="coming-soon">
             <h1 class="display-4" id="header">Coming Soon to Austin Texas</h1>
+            <br>
                 <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
-                <hr class="my-4">
-                <h4>This website is under construction. Follow us on social media to stay up to date with our journey!</h4>
+                <h3>This website is under construction. Follow us on social media to stay up to date with our journey!</h3>
                 <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more About Our Mission</a> -->
                 <br>
                 <a href="https://www.facebook.com/bealwayshungry/" target="_blank"><i class="fab fa-facebook-square" id="facebook"></i></a>
@@ -66,20 +68,24 @@
 
     <div class="col-md-6 padding-0">
         <div class="jumbotron jumbotron-fluid" id="contact">
-            <h1 class="section-header">Stay in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with Us</span></h1>
-            <br>
-            <h3>Enter your email to stay up to date with our Grand Opening.</h3>
-            <br>
-            <label for="exampleInputUsername">Your name</label>
-            <br>
-            <input type="text" class="form-control" id="" placeholder="Full Name">
-            <br>
-            <label for="exampleInputEmail">Email Address</label>
-            <br>
-            <input type="email" class="form-control" id="exampleInputEmail" placeholder="your_email@email.com">
-            <br>
-            <button type="button" class="btn btn-outline-danger submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit </button>	 
-            </div>
+            <div class="form-style-2">
+                <div class="form-style-2-heading" class="display-4">Stay in Touch with Us</div>
+                <form method="POST" action="https://formspree.io/andrayayay@gmail.com">
+                    <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+                    <label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
+                    <label for="field4"><span>Regarding</span><select name="field4" class="select-field">
+                    <option value="General Question">General</option>
+                    <option value="Advertise">Advertisement</option>
+                    <option value="Partnership">Partnership</option>
+                </select>
+            </label>
+
+            <label for="field5"><span>Message <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+                    
+            <label><span> </span><input type="submit" value="Submit" /></label>
+        </form>
+    </div>
+             </div>
         </div>
     </div>
 </div>
@@ -91,13 +97,13 @@
 <footer class="page-footer font-small special-color-dark pt-4">
     
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2019 Copyright: 
+        <div class="footer-copyright text-center py-3" id="footer">© 2019 Copyright: 
             <br>
-            Always Hungry Always Healthy
-            <br><br>
-            Website Designed By Andraya Smith & Alfredo Rojas
+           <p id="footer">Always Hungry Always Healthy</p>
             <br>
-          <a href="http://bealwayshungry.com/"> Bealwayshungry.com</a>
+           <p id="footer"> Website Designed By Andraya Smith & Alfredo Rojas </p>
+            <br>
+          <a href="http://bealwayshungry.com/" id="footer"> Bealwayshungry.com</a>
             <br>
         </div>
         <!-- Copyright -->

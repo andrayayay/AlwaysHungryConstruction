@@ -33,6 +33,11 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .navbar{
+        width: 150%;
+        background: #333333;
+          
+    }
     .jumbotron {
         padding: 10px;
         margin-right: 0px;
@@ -46,6 +51,16 @@
     #contact{
         width: 200%;
     }
+    footer{
+        background: #333333;
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        font-size: 15px;
+        width: 150%;
+    
+    }
+
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -108,6 +123,7 @@
         font-weight: 400;
         text-align: center;
         font-size: 15px;
+        width: 100%
     
     }
     
