@@ -1,0 +1,79 @@
+
+.navbar{
+    width: 100%;
+    background: #333333;
+      
+}
+
+
+#logo {
+    margin-right: 20px;
+}
+
+.nav-item{
+    margin-right: 13px;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font: bold;
+}
+
+#header{
+    font-weight: 600;
+    font-display: bold;
+    font-size: 40px;
+}
+
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    /* height: 1000px; */
+}
+
+
+#coming-soon{
+    margin: 0px;
+    height: 100%;
+}
+
+
+#contact{
+    /* margin: 0px; */
+    height: 100%;
+    
+}
+
+.form-control{
+    width: 400px;
+}
+
+.carousel{
+    margin: 0;
+}
+
+footer{
+    background: #333333;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+#facebook,
+#instagram,
+#twitter {
+    font-size: 100px;
+    margin-right: 40px;
+    text-align: center;
+    color: black;
+    max-width: 150px;
+
+
+}   
+
+
+ 
