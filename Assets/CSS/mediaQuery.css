@@ -1,0 +1,154 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .form-control{
+        width: 300px;
+    }
+    #contact {
+        padding: 15px;
+        padding-top: 0px;
+        
+    }
+
+    #coming-soon{
+        padding-bottom: 0px;
+    }
+    #facebook,
+    #instagram,
+    #twitter   {
+        margin-right: 5px;
+    } 
+} 
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #facebook,
+    #instagram,
+    #twitter   {
+        margin-right: 10px;
+    } 
+
+} 
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navbar{
+        width: 150%;
+        background: #333333;
+          
+    }
+    .jumbotron {
+        padding: 10px;
+        margin-right: 0px;
+        width: 105%;
+    }
+    
+    .form-control{
+        width: 300px;
+    }
+
+    #contact{
+        width: 200%;
+    }
+    footer{
+        background: #333333;
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        font-size: 15px;
+        width: 150%;
+    
+    }
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navbar{
+        width: 100%;
+        background: #333333;
+          
+    }
+    
+    
+    #logo {
+        margin-right: 20px;
+    }
+    
+    .nav-item{
+        margin-right: 13px;
+    }
+    
+    .navbar-brand{
+        font-weight: 600;
+        font: bold;
+    }
+    
+    #header{
+        font-weight: 600;
+        font-display: bold;
+        font-size: 40px;
+    }
+    
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+        /* height: 1000px; */
+    }
+    
+    
+    #coming-soon{
+        margin: 0px;
+        padding: 15px;
+        padding-bottom: 50px;
+
+    }
+    
+    
+    #contact{
+        /* margin: 0px; */
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    .form-control{
+        width: 400px;
+    }
+    footer{
+        background: #333333;
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        font-size: 15px;
+        width: 100%
+    
+    }
+    
+    
+    #facebook,
+    #instagram,
+    #twitter {
+        font-size: 100px;
+        margin-right: 40px;
+        text-align: center;
+        color: black;
+        max-width: 150px;
+    
+    
+    } 
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
