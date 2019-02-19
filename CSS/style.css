@@ -7,7 +7,7 @@
 }
 
 #logo {
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
 .nav-item{
@@ -25,7 +25,7 @@
 h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    /* font-size: 20px; */
     font-display: bold;
 }
 h2{
@@ -48,9 +48,6 @@ h3{
 /* CONTAINERS */
 
 #coming-soon{
-    margin: 0px;
-    padding-top: 5px;
-    padding: 10px;
     height: 100%;
 }
 
