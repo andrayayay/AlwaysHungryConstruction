@@ -55,9 +55,9 @@
             <h1 class="display-4" id="header">Coming Soon to Austin, Texas</h1>
             <br>
                 <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
-                <h3>This website is under construction.</h3> 
+                <h3>This website is under construction.</h3>
                 <br>
-                <h3>Follow us on social media to stay up to date with our journey!</h3>
+                <h3> Follow us on social media to stay up to date with our journey!</h3>
                 <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more About Our Mission</a> -->
                 <br>
                 <a href="https://www.facebook.com/bealwayshungry/" target="_blank"><i class="fab fa-facebook-square" id="facebook"></i></a>
