@@ -41,7 +41,8 @@ h3{
 
 #header{
     border-bottom: 2px solid #ddd;
-    padding-bottom: 12px; 
+	padding-bottom: 12px; 
+	padding-top: 10px;
 }
 
 
@@ -75,7 +76,7 @@ footer{
     text-align: center;
     color: black;
     max-width: 150px;
-
+	padding-top: 15px;
 
 }  
 
