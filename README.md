@@ -1,5 +1,5 @@
 # AlwaysHungryConstructionSITE
-https://andrayayay.github.io/AlwaysHungryConstruction/.
+
 http://bealwayshungry.com/
 
 This is my first freelance project. I partnered up with a food truck to create them an awesome website with also the opportunity to maintain it. My first step was to createn them a "under construction" site to be deployed to their domain - bealwayshungry.com. I decided it was best that I use github for this project so I can keep track of my progress and be able to revert back to an old verison if neccessary. 
